@@ -69,11 +69,9 @@ const LoginScreen = () => {
         >
           Sign In
         </Button>
-      </Form>
 
-      {
-        isLoading && <Loader />
-      }
+        {isLoading && <Loader />}
+      </Form>
 
       <Row className='py-3'>
         <Col>
